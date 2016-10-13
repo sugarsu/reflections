@@ -7,3 +7,10 @@ How is the staging area different from the working directory and the repository?
 The staging area is a a place where you can group several files that relate to a same " logical"  change.
 The working directory...contains all the files you are working with, whether they are in the staging area, comitted or not.
 The repository contains the files from the working directory that have been committed.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can use git staus to show what files are currently in the staging area, ready to commit.
+Also, git diff will tell you the changes between the state of the files in the working directory and the state of the files 
+in the staging area, so you can check what s ready to be committed.
+To be 100% sure of what will result after the commit, you can alo do a git diff --staging area to see the changes of the 
+files in the staging area with respecto to the file s of the most recent commit.
