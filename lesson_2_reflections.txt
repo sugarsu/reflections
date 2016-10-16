@@ -18,3 +18,6 @@ files in the staging area with respecto to the file s of the most recent commit.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Hen you want to try some approach to solve a bug or implement something, but you are not sure if it is the right approach.
 For experiments, or for long and complex features that can progress independently of the rest of the project.
+
+How do the diagrams help you visualize the branch structure?
+when was a branch created and how many commits it has, as well as how many commites the original branch has had after the branch was created.S
