@@ -14,3 +14,7 @@ Also, git diff will tell you the changes between the state of the files in the w
 in the staging area, so you can check what s ready to be committed.
 To be 100% sure of what will result after the commit, you can alo do a git diff --staging area to see the changes of the 
 files in the staging area with respecto to the file s of the most recent commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Hen you want to try some approach to solve a bug or implement something, but you are not sure if it is the right approach.
+For experiments, or for long and complex features that can progress independently of the rest of the project.
