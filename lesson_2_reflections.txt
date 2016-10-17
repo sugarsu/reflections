@@ -25,3 +25,7 @@ when was a branch created and how many commits it has, as well as how many commi
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The result is a fusion of the changes in both branches. THe diagram, each branch is represented by the series of changes or commits each had.
 The commits have one parent commit to keep track of the origin of the branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging can take care of the overhead of going into each change of the branches to be merged, and decide if we want to keep one or the other change.
+But there are sometimes where manual merging is the best option as deciding which change to keep depends on the specific project knowledge. 
